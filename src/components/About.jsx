@@ -25,9 +25,8 @@ const About = () => {
             </div>
             <div>
               <p className=' text-md sm:text-2xl'>
-                Entry level web developer full stack looking to break into the
-                world of tech where I can share and improve my current set of
-                skills. Currently, I love to work on web applications using
+                Entry level web developer looking to break into the world of
+                tech. Currently, I love to work on web applications using
                 technologies like React, Tailwind, NodeJs, ExpressJs and
                 Mongodb.
               </p>
