@@ -16,31 +16,31 @@ const Skills = () => {
             </p>
           </div>
           <div className='mb-48 w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>JAVASCRIPT</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>HTML</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>TAILWIND CSS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <p className='my-4'>REACT</p>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
+              <p className='my-4'>REACT JS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>GITHUB</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>NODE JS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>EXPRESS JS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>MONGO DB</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#533c07]'>
               <p className='my-4'>MYSQL</p>
             </div>
           </div>
