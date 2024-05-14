@@ -12,10 +12,8 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Entry level web developer full stack looking to break into the world
-            of tech where I can share and improve my current set of skills.
-            Currently, I love to work on web applications using technologies
-            like React, Tailwind, NodeJs, ExpressJs and Mongodb.
+            An entry level web developer with experience in building personal
+            projects using MongoDb, ExpressJs, ReactJs, NodeJs, MySql.
           </p>
           <div>
             <Link

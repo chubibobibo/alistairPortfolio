@@ -17,16 +17,19 @@ const About = () => {
             </div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 '>
-            <div className='sm:text-right sm:text-4xl font-bold'>
+            <div className='sm:text-right sm:text-6xl font-bold'>
               <p>
                 Hi. I'm Alistair Abao, nice to meet you. Please take a look
                 around.
               </p>
             </div>
             <div>
-              <p>
-                A web developer with experience in building personal projects
-                using MongoDb, ExpressJs, ReactJs, NodeJs, MySql.
+              <p className='sm:text-3xl'>
+                Entry level web developer full stack looking to break into the
+                world of tech where I can share and improve my current set of
+                skills. Currently, I love to work on web applications using
+                technologies like React, Tailwind, NodeJs, ExpressJs and
+                Mongodb.
               </p>
             </div>
           </div>
