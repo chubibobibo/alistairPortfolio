@@ -20,6 +20,7 @@ const Works = () => {
             PROJECTS
           </p>
           <p className='py-6 text-2xl'>Check out some of my most recent work</p>
+          <p>Click images to view the demo and code in github</p>
         </div>
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>

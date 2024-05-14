@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-[#232f0a]'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-        <div className='flex flex-col justify-start sm:justify-center h-full mt-48'>
+        <div className='flex flex-col justify-start sm:justify-center h-full mt-48 sm:mt-5'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
             I'm a Full Stack Web Developer
           </h2>
@@ -29,11 +29,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className='mb-48 sm:mb-0'>
+        <div className='mb-48 sm:mb-30'>
           <img
             src={me}
             alt='my profile'
-            className='rounded-2xl mx-auto w-2/3 md:w-fit mb-2'
+            className='rounded-2xl mx-auto w-2/3 md:w-fit mb-2 mt-20'
           />
         </div>
       </div>
