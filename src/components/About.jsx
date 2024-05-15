@@ -24,7 +24,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <p className=' text-md sm:text-2xl'>
+              <p className=' text-md sm:text-3xl'>
                 Entry level web developer looking to break into the world of
                 tech. Currently, I love to work on web applications using
                 technologies like React, Tailwind, NodeJs, ExpressJs and
