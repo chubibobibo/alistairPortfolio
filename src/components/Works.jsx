@@ -3,8 +3,8 @@ import cooktionary from "../assets/cooktionary.png";
 import jobtracker from "../assets/jobtracker.png";
 import reservation from "../assets/reservation.png";
 import ecommerce from "../assets/ecommerce.png";
-import aperture from "../assets/aperture.png";
-import dice from "../assets/dice.png";
+import aperture from "../assets/newAperture.png";
+import rsvp from "../assets/rsvp.png";
 
 import code from "../assets/code2.png";
 
@@ -27,28 +27,33 @@ const Works = () => {
           {/* Grid Item */}
 
           <div
-            style={{ backgroundImage: `url(${cooktionary})` }}
+            style={{ backgroundImage: `url(${aperture})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                Cooktionary App
+                Aperture App
               </span>
               <p className='text-center'>
-                A recipe sharing app developed using MongoDb, ExpressJs,
-                ReactJs, NodeJs
+                Photo sharing application that allows users to upload and
+                interact with other user's photos (authorization). Implemented
+                map cluster markers using leaflet and mapbox forward geocoding
+                Developed using MongoDb, ExpressJs, ReactJs, NodeJs.
               </p>
-              <div className='pt-8 text-center'>
+              <div className='text-center'>
                 <a
-                  href='https://cooktionaryapp.onrender.com
+                  href='https://aperture-remake.onrender.com
 '
                 >
                   <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/chubibobibo/CooktionaryApp'>
+                <a
+                  href='https://github.com/chubibobibo/Aperture_Remake
+'
+                >
                   <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -87,6 +92,38 @@ const Works = () => {
               </div>
             </div>
           </div>
+
+          <div
+            style={{ backgroundImage: `url(${cooktionary})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Cooktionary App
+              </span>
+              <p className='text-center'>
+                A recipe sharing app developed using MongoDb, ExpressJs,
+                ReactJs, NodeJs
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://cooktionaryapp.onrender.com
+'
+                >
+                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/chubibobibo/CooktionaryApp'>
+                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${reservation})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -150,63 +187,34 @@ quai_antique
               </div>
             </div>
           </div>
+
           <div
-            style={{ backgroundImage: `url(${aperture})` }}
+            style={{ backgroundImage: `url(${rsvp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                Aperture App
+                Online Birthday Reservation
               </span>
-              <p className='text-center'>
-                Photo sharing application that allows users to upload and
-                interact with other user's photos (authorization). Developed
-                using Javascript, EJS, HTML/CSS
+              <p className='text-center text-sm'>
+                created a quick and simple React app that serves as an
+                invitation and a way for guests to confirm their attendance to
+                my son's birthday party. Implemented web3forms API for a simple
+                and quick solution to send messages. The goal was to create an
+                app that is relatively easy to deploy and to be accessible and
+                practical to the users.
               </p>
-              <div className='pt-8 text-center'>
+              <div className='pt-1 text-center'>
                 <a
-                  href='https://aperturev2.onrender.com
+                  href='https://rsvp-invite-three.vercel.app
 '
                 >
                   <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a
-                  href='https://github.com/chubibobibo/apertureV2
-'
-                >
-                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${dice})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                Dice Game/Pig Game
-              </span>
-              <p className='text-center'>
-                My own version of the popular pig dice game. Developed using
-                Javascript and html/css
-              </p>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://project-dice-game.vercel.app
-'
-                >
-                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href=' https://github.com/chubibobibo/projectDiceGame'>
+                <a href='https://github.com/chubibobibo/rsvpInvite'>
                   <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
