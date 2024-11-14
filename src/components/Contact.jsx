@@ -1,5 +1,7 @@
 import React from "react";
 
+import { toast } from "react-toastify";
+
 //formspree
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -7,9 +9,12 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("mbjeyqlw");
   if (state.succeeded) {
     return (
-      <p className='font-bold text-lg'>
-        Thanks for the message! I will get back to you as soon as possible.
-      </p>
+      // <p className='font-bold text-lg'>
+      //   Thanks for the message! I will get back to you as soon as possible.
+      // </p>
+      toast.success(
+        "Thanks for the message! I will get back to you as soon as possible."
+      )
     );
   }
   return (
