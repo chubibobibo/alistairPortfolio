@@ -4,6 +4,7 @@ import jobtracker from "../assets/jobtracker.png";
 import reservation from "../assets/reservation.png";
 import ecommerce from "../assets/ecommerce.png";
 import aperture from "../assets/newAperture.png";
+import booktrackit from "../assets/booktrackit.png";
 import rsvp from "../assets/rsvp.png";
 
 import code from "../assets/code2.png";
@@ -35,7 +36,7 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Aperture App
               </span>
-              <p className='text-center'>
+              <p className='text-center text-sm'>
                 Photo sharing application that allows users to upload and
                 interact with other user's photos (authorization). Implemented
                 map cluster markers using leaflet and mapbox forward geocoding
@@ -63,6 +64,36 @@ const Works = () => {
           </div>
 
           <div
+            style={{ backgroundImage: `url(${booktrackit})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Book Tracker App
+              </span>
+              <p className='text-center text-sm'>
+                Created an app based on my need to track books that I borrowed
+                in our local library. This app sends notifications to my email 2
+                days before any book is due to be returned. Implemented lazy
+                loading for efficient rendering of components and photos.
+              </p>
+              <div className='pt-1 text-center'>
+                <a href='https://booktrackit.onrender.com'>
+                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/chubibobibo/BookTrackIt'>
+                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
             style={{ backgroundImage: `url(${jobtracker})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -71,7 +102,7 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 JobTracker App
               </span>
-              <p className='text-center'>
+              <p className='text-center text-sm'>
                 I created this app to keep track of all my current job
                 applications as a web developer. Developed using MERN stack
               </p>
@@ -102,7 +133,7 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Cooktionary App
               </span>
-              <p className='text-center'>
+              <p className='text-center text-sm'>
                 A recipe sharing app developed using MongoDb, ExpressJs,
                 ReactJs, NodeJs
               </p>
@@ -133,7 +164,7 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Restaurant Reservation App
               </span>
-              <p className='text-center'>
+              <p className='text-center text-sm'>
                 Allows users to make their reservations (limited tables) and
                 consult the services being offered by the restaurant. Developed
                 using MongoDb, ExpressJs, EJS, MYSQL
@@ -152,34 +183,6 @@ const Works = () => {
 quai_antique
 '
                 >
-                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${ecommerce})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                E-Commerce Site
-              </span>
-              <p className='text-center'>
-                E-commerce camera equipment shop that implements persistent data
-                on client's cart, admin account manages products to be added and
-                modified. Developed using MERN stack
-              </p>
-              <div className='pt-8 text-center'>
-                <a href='https://github.com/chubibobibo/CameraEshop'>
-                  <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/chubibobibo/CameraEshop'>
                   <button className='text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
