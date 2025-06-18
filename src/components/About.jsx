@@ -27,7 +27,8 @@ const About = () => {
               <p className=' text-md sm:text-3xl'>
                 Entry level web developer looking to break into the world of
                 tech. I love to work on web applications using technologies like
-                React, Tailwind, NodeJs, ExpressJs, MySQL and Mongodb.
+                React, Tailwind, Typescript, NodeJs, ExpressJs, MySQL and
+                Mongodb.
               </p>
             </div>
           </div>

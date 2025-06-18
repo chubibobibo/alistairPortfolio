@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import me from "../assets/photo.png";
+import me from "../assets/profilepic.png";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -13,7 +13,8 @@ const Home = () => {
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
             An entry level web developer with experience in building personal
-            projects using MongoDb, ExpressJs, ReactJs, NodeJs, MySql.
+            projects using MongoDb, ExpressJs, ReactJs, Typescript, NodeJs,
+            MySql.
           </p>
           <div>
             <Link
